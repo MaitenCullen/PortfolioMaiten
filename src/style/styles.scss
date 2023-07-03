@@ -1,0 +1,60 @@
+
+@import './setting';
+@import './screensStyle/projects';
+@import './screensStyle/home';
+@import './screensStyle/skills';
+@import './screensStyle/Contact';
+@import './screensStyle/CardProjects';
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+// body{
+//     background-color:$backgoundLight;
+// }
+.app{
+  height: 100%;
+  position: relative;
+  min-height:100vh;
+}
+.sectionAPP{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#dark {
+background-color: $backgroundDark;
+
+}
+
+#light {
+background-color: whitesmoke;
+ }
+
+ .switch {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: $fontCuadrada;
+    letter-spacing: 6px;
+  }
+  
+  .switch label {
+    margin: 10px;
+  }
+  
+  #light .switch label {
+    color: $darkBlue;
+  }
+  
+  #dark .switch label {
+    color: $red;
+  }
+
