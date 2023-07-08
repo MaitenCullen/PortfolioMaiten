@@ -54,8 +54,12 @@
     padding: 5px;
     letter-spacing: 1px;
     background: bottom;
+    color: $violet;
   }
-  
+  #light .formControl,
+  textarea {
+    border: 1px solid $green;
+  }
   .formButton {
     margin-top: 15px;
     height: 40px;
@@ -69,6 +73,7 @@
   }
   #light .formButton{
     color: $violet;
+    border: 1px solid $green;
   }
   .alt-formButton {
     width: 100%;
@@ -89,13 +94,14 @@
   
 
   .dataContactContainer {
-    width: 50%;
+    width: 60%;
     display: flex;
     color: $green;
     align-items: center;
     flex-direction: column;
     & li {
       color:$darkBlue;
+      align-items: center;
     }
     & .contact-text{
       color:$darkGreenDark;
@@ -105,6 +111,10 @@
       line-height: 2;
       letter-spacing: 6px;
     }
+  }
+  .dataContactContainer li{
+    display: flex;
+    align-items: center;
   }
   #dark .dataContactContainer li {
     color:$violet;
@@ -122,8 +132,11 @@
   .listItem {
     line-height: 4px;
     color:black;
+    font-size: 1.3rem;
   }
-  
+  .contact-icon{
+    font-size: 1.3rem;
+  }
   .contact-text {
     font-size: 16px;
     font-family: $fontGeneric;
@@ -155,7 +168,10 @@
     width: 100%;
     margin: 0 auto;
     padding: 0;
-  }
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
   #dark .social-media-list a{
     color:$green;
     text-shadow: 1px 1px 4px #00ffe0;
@@ -210,14 +226,24 @@
   .social-media-list :hover a {
     color: #8b00ad;
   }
-  
+  .contact-icon{
+    font-size: 1.3rem;
+  }
   
   hr {
-    border-color: rgba(255,255,255,.6);
-    width: 70%;
+    border-color: rgb(51 230 172 / 60%);
+    width: 100%;
   }
   
   /* Begin Media Queries*/
+  @media(min-width:851px){
+    .contactList {
+      width: 70%;
+  }
+    hr {
+      width: 70%;
+    }
+  }
   @media screen and (max-width: 850px) {
     .contactWrapper {
       display: flex;
@@ -233,8 +259,11 @@
     }
     .dataContactContainer {
       margin-top: 60px;
-      max-width: 300px;
+      max-width: 350px;
     }    
+    .dataContactContainer .contact-text{
+      font-size: 15px;
+    }
     .social-media-list a {
       height: 60px;
       width: 60px;
@@ -245,6 +274,11 @@
       height: 60px;
       line-height: 60px;
     }
+  }
+  @media(max-width:700px){
+       .sectionHeader{
+        font-size: 1.5rem;
+       }
   }
   
   @media screen and (max-width: 569px) {
@@ -285,6 +319,9 @@
     .contact-text{
       margin-left: 0;
     }
+    .sendText {
+      font: 500 13px "Lato", sans-serif;
+  }
     
   }
   
