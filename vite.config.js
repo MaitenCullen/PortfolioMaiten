@@ -8,6 +8,8 @@ export default defineConfig({
     },
     base:'/portfolio/',
     plugins: [react()],
-    
+    build: {
+      outDir: 'dist',
+    },
  
 })
