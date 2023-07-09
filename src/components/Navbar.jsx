@@ -15,7 +15,7 @@ export const NavBar = () => {
   return (
     <div>
         <ul className='navBarUl' data-dropdown-menu id={theme}>
-            <li id={theme}><a  href='#skills'>Habilidades Técnicas</a></li>
+            <li id={theme}><a  href='#skills'>Tecnologías</a></li>
             <li><a  href='#projects'>Proyectos</a></li>
             <li><a  href='#contact'>Contacto</a></li>
         </ul>

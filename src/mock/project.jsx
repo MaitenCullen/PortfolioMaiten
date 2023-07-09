@@ -3,8 +3,9 @@ import { RiGameLine } from "react-icons/ri";
 import { FaChalkboardTeacher, FaRegHandSpock } from "react-icons/fa";
 import { MdOutlineEmojiPeople } from "react-icons/md";
 import { IoCarSportOutline, IoHammerOutline } from "react-icons/io5";
-import { FaDog } from 'react-icons/fa';
+import { FaDog } from "react-icons/fa";
 import { ImLab } from "react-icons/im";
+import React from "react";
 
 const project = [
     {
