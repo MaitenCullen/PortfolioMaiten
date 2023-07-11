@@ -5,9 +5,9 @@
     & h1 {
         font-family: $titleFont;
         font-weight: 800;
-        font-size: 35px;
-        letter-spacing: 6px;
+        font-size: 2rem;
         text-align: center;
+    
     }
 }
 
@@ -35,7 +35,7 @@
     margin: 10px;
 }
 .skillTitle{
-    color: $red;
+    color: $violet;
     font-family: $fontCuadrada;
     font-size: 14px;
     letter-spacing: 6px;
@@ -48,7 +48,7 @@
 }
 
 #dark .skillsDiv h1{
-    color: $violet;
+    color: $red;
 
 }
 #light .skillsDiv h1{

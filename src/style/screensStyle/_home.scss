@@ -21,19 +21,16 @@
    text-shadow: 1px 1px 4px #00ffe0;
 }
 
-#light h3, h4{
+#light .title{
     color: $darkBlue;
 }
-#dark h3, h4{
+#dark .title{
     color: $violet;
     }
 
 
 h3,h4{
     font-family: $fontGeneric;
-    line-height: 40px;
-}
-h3, h4{
     font-weight: 700;
     line-height: 60px;
     font-size: 25px;
@@ -130,7 +127,7 @@ li{
 }
 
 #dark .navBarUl a{
-    color:$red;
+    color:$redFuscia;
 }
 
 #light .navBarUl li{
@@ -192,7 +189,11 @@ li{
       }
 }
 
-
+@media(max-width:1230px){
+    .navBarUl a {
+        font-size: 1.5rem;
+    }
+}
 
 @media screen and (max-width: 849px) {
     .navBarUl {
@@ -207,8 +208,8 @@ li{
        
     }
     h3, h4{
-        line-height: 50px;
-        font-size: 2rem;
+        line-height: 40px;
+        font-size: 1.5rem;
         letter-spacing: 6px;
         text-align: center;
     }

@@ -6,7 +6,7 @@ export const Projects = () => {
     // const theme = ''
   return (
    <section className="content" id='projects'>
-    <h1>Proyectos</h1>
+    <h1>Algunos proyectos</h1>
     <div className='divPoject'>
     <CardProjects/>
     </div>
