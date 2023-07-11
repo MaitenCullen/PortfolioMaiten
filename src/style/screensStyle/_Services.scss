@@ -3,23 +3,36 @@
     display: flex;
     width: 100%;
     align-items: center;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    & h1 {
+        font-family: $titleFont;
+        color: $red;
+        letter-spacing: 6px;
+        font-weight: 800;
+        font-size: 2rem;
+        padding: 40px 0;
+    }
 }
 .div-services-component{
     width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
 }
+
 .div-info-services{
-    width:300px;
-    height: 1000px;
+    margin: 4%;
+    width:450px;
+    height: 700px;
     border-radius: 15px;
     padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     &.c00{
         border: 1px solid $darkGreen;     
     }
@@ -39,34 +52,35 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 5px;
     &.c00{
-         h4{
-            color: $darkGreenDark;
+         h3, h4{
+            color: $greenTitulo;
         }
     }
     &.c01{
-        h4{
-           color: $violetaMedio;
+        h3, h4{
+           color: $violetaTitulo;
        }
    }
     &.c02{
-        h4{
+        h3, h4{
         color: $dorado;
     }
     }
     &.c03{
-        h4{
-        color: $red;
+        h3, h4{
+        color: $redTitulo;
     }
-    }
-    & h3{
-        font-size: 1.3rem;
-        line-height: 40px;
-        font-family: $titleFont;
-        letter-spacing: 6px;
     }
     & h4{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
+        line-height: 30px;
+        font-family: $fontGeneric;
+        letter-spacing: 6px;
+    }
+    & h3{
+        font-size: 1rem;
         line-height: 35px;
         font-family:  $fontCuadrada;
     }
@@ -125,7 +139,7 @@
     align-items: center;
     font-family:$fontGeneric;
     p{
-        font-size: 0.7rem;
+        font-size: 1rem;
         letter-spacing: 4px;
     }
     &.c00{
@@ -133,7 +147,7 @@
             color: $green;
         }
         p{
-            color: $darkGreen;
+            color: $darkGreenDark;
         }
     }
     &.c01{
@@ -158,6 +172,57 @@
         }
         p{
             color: $red;
+        }
+    }
+}
+
+@media(max-width:1230px){
+
+    .div-services-component {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .div-info-services{
+        width:450px;
+        height: 700px;
+        margin: 3%;
+    }
+}
+@media(max-width:800px){
+    .div-services-component{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-info-services{
+        width:300px;
+        height: 600px;
+        margin: 3%;
+    }
+    
+.div-title-services{
+    & h4{
+        font-size: 0.5rem;
+        line-height: 25px;
+    }
+    & h3{
+        font-size: 0.7rem;
+        line-height: 30px;
+    }
+    }
+    .div-lista{
+        width: 90%;
+        ul, li{
+            font-size: 0.6rem;
+            line-height: 20px;
+        }
+    }
+    .div-precios{
+        margin-top: 5px;
+        padding: 2px
+        p{
+            font-size: 0.7rem;
+            letter-spacing: 4px;
         }
     }
 }

@@ -28,7 +28,7 @@ export const ServicesInfo = () =>{
                     <div className="div-precios c00">
                         <h4>$40.000</h4>
                         <p>Consultar metodos de pago</p>
-                        <a href="">Ejemplo</a>
+                        {/* <a href="">Ejemplo</a> */}
                     </div>
                 </div>
             
@@ -60,7 +60,7 @@ export const ServicesInfo = () =>{
                     <div className="div-precios c01">
                         <h4>$60.000</h4>
                         <p>Consultar metodos de pago</p>
-                        <a href="">Ejemplo</a>
+                        {/* <a href="">Ejemplo</a> */}
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ export const ServicesInfo = () =>{
                 <div className="div-title-services c02" id="">
                     <h3>WEB <br/> COMPLETITA</h3>
                     <hr className="linea"/>
-                    <h4>GRANDES EMPRENDEDORES</h4>
+                    <h4> PERFECTA GRANDES EMPRENDEDORES</h4>
                 </div>
                 <div className="container-lista">
                     <div className="div-lista c02">
@@ -91,7 +91,7 @@ export const ServicesInfo = () =>{
                     <div className="div-precios c02">
                         <h4>$80.000</h4>
                         <p>Consultar metodos de pago</p>
-                        <a href="">Ejemplo</a>
+                        {/* <a href="">Ejemplo</a> */}
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@ export const ServicesInfo = () =>{
                     <div className="div-precios c03">
                         <h4>$90.000</h4>
                         <p>Consultar metodos de pago</p>
-                        <a href="">Ejemplo</a>
+                        {/* <a href="">Ejemplo</a> */}
                     </div>
                 </div>
             </div>

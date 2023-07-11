@@ -5,9 +5,12 @@ import { ServicesInfo } from "../components/ServicesInfo";
 
 export const Services = () => {
     return(
-        <div className="div-services">
-            <ServicesInfo/>
-        </div>
+        <section id='servicios'>
+            <div className="div-services">
+                <h1>Servicios</h1>
+                <ServicesInfo/>
+            </div>
+        </section>
    
     );
 }
