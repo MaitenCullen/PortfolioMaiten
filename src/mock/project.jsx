@@ -5,6 +5,7 @@ import { MdOutlineEmojiPeople } from "react-icons/md";
 import { IoCarSportOutline, IoHammerOutline } from "react-icons/io5";
 import { FaDog } from "react-icons/fa";
 import { ImLab } from "react-icons/im";
+import { RiBuilding2Line } from "react-icons/ri";
 import React from "react";
 
 const project = [
@@ -89,7 +90,16 @@ const project = [
         link:'http://www.industriasobertec.com.ar/index.php',
         image:'./obertec.png',
         icon:<ImLab/>  
-    }  
+    } ,
+    // {
+    //     id:9,
+    //     project:'Cullen Construcciones',
+    //     description:'Ingenieria Civil construcciones',
+    //     technologies:'HTML, CSS, Styled Component, Javascript, React Js',
+    //     link:'http://www.industriasobertec.com.ar/index.php',
+    //     image:'./obertec.png',
+    //     icon:<RiBuilding2Line/>  
+    // } 
 ]
 
 
