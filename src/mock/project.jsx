@@ -96,7 +96,7 @@ const project = [
          project:'Fidel Construcciones',
          description:'Ingenieria Civil construcciones',
          technologies:'HTML, CSS, Styled Component, Javascript, React Js',
-         link:'https://fidel-construcciones-rndf8b5xs-maiten-cullen.vercel.app/',
+         link:'https://fidel-construcciones.vercel.app/',
          image:'./fidel.png',
          icon:<RiBuilding2Line/>  
      } 
