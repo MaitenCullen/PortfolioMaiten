@@ -91,15 +91,15 @@ const project = [
         image:'./obertec.png',
         icon:<ImLab/>  
     } ,
-    // {
-    //     id:9,
-    //     project:'Cullen Construcciones',
-    //     description:'Ingenieria Civil construcciones',
-    //     technologies:'HTML, CSS, Styled Component, Javascript, React Js',
-    //     link:'http://www.industriasobertec.com.ar/index.php',
-    //     image:'./obertec.png',
-    //     icon:<RiBuilding2Line/>  
-    // } 
+     {
+         id:9,
+         project:'Fidel Construcciones',
+         description:'Ingenieria Civil construcciones',
+         technologies:'HTML, CSS, Styled Component, Javascript, React Js',
+         link:'https://fidel-construcciones-rndf8b5xs-maiten-cullen.vercel.app/',
+         image:'./fidel.png',
+         icon:<RiBuilding2Line/>  
+     } 
 ]
 
 
