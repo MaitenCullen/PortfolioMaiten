@@ -26,7 +26,7 @@ export const ServicesInfo = () =>{
                         </ul>
                     </div>
                     <div className="div-precios c00">
-                        <h4>$40.000</h4>
+                        <h4>$60.000</h4>
                         <p>Consultar metodos de pago</p>
                         {/* <a href="">Ejemplo</a> */}
                     </div>
@@ -58,7 +58,7 @@ export const ServicesInfo = () =>{
                         </ul>
                     </div>
                     <div className="div-precios c01">
-                        <h4>$60.000</h4>
+                        <h4>$80.000</h4>
                         <p>Consultar metodos de pago</p>
                         {/* <a href="">Ejemplo</a> */}
                     </div>
@@ -89,7 +89,7 @@ export const ServicesInfo = () =>{
                         </ul>
                     </div>
                     <div className="div-precios c02">
-                        <h4>$80.000</h4>
+                        <h4>$100.000</h4>
                         <p>Consultar metodos de pago</p>
                         {/* <a href="">Ejemplo</a> */}
                     </div>
@@ -109,7 +109,7 @@ export const ServicesInfo = () =>{
                             <li>Inclusión hasta 5 imágenes</li>
                             <li>Galería de productos | hasta 30 imágenes 5 categorías</li>
                             <li>Stock actualizado en base de datos</li>
-                            <li>Función agregar producto y realizar pedido | sin plataforma de pago | datos de contacto/transferencia</li>
+                            <li>Función agregar producto y realizar pedido | sin plataforma de pago (consultar) | datos de contacto/transferencia</li>
                             <li>Adaptado a dispositivos móviles</li>
                             <li>1 Formulario de Contacto</li>
                             <li>Integración Google Maps ubicación</li>
@@ -122,7 +122,7 @@ export const ServicesInfo = () =>{
                         </ul>
                     </div>
                     <div className="div-precios c03">
-                        <h4>$90.000</h4>
+                        <h4>$120.000</h4>
                         <p>Consultar metodos de pago</p>
                         {/* <a href="">Ejemplo</a> */}
                     </div>
