@@ -8,11 +8,12 @@ import { ImLab } from "react-icons/im";
 import { RiBuilding2Line } from "react-icons/ri";
 import React from "react";
 
+
 const project = [
     {
         id:0,
         project:'Betty SexShop',
-        description:'Stop! solo para mayores de 18 años',
+        description:"BETTY",
         technologies:'React js, Javascript, Firebase, SASS',
         link:'https://betty-juguetes2-xi.vercel.app/',
         image:'./betty.png',
@@ -21,7 +22,7 @@ const project = [
     {
         id:1,
         project:'Laprinsumos 3D',
-        description:'Web catalogo de impresión 3D',
+        description:'LAPRINSUMOS',
         technologies:'HtML, CSS, Bootstrap, Figma',
         link:'https://laprinsumosfinal.vercel.app/',
         image:'./laprinsumos.png',
@@ -30,7 +31,7 @@ const project = [
     {
         id:2,
         project:'ItEnseño',
-        description:'Tutorias en IT. Compartimos el conocimiento.',
+        description:'ITENSENO',
         technologies:'Figma, React JS, Javascript, SASS, Node JS, React Bootstrap, Monongose.',
         link:'https://s5-06-mern.vercel.app/',
         image:'./ITenseño.png',
@@ -39,7 +40,7 @@ const project = [
     {
         id:3,
         project:'SantaFe Más',
-        description:'Proyecto programa Provincial Santa Fe Mas',
+        description:'SANTA-FE-MAS',
         technologies:'HTML, CSS, Bootstrap, SASS',
         link:'https://santa-fe-mas.vercel.app/',
         image:'./santaFemas.jpg',
@@ -48,7 +49,7 @@ const project = [
     {
         id:4,
         project:'Autosescuela',
-        description:'Web App construida en Vainilla JS',
+        description:'AUTOESCUELA',
         technologies:'Javascript, HTML, SASS',
         link:'https://autoescuela.vercel.app/',
         image:'./autoEscuela.png',
@@ -57,7 +58,7 @@ const project = [
     {
         id:5,
         project:'UnLimited',
-        description:'App Mobile Nativa. Para no descargarla podes mirar este lindo Gif',
+        description:'UNLIMITED',
         technologies:'React Native, Node Js, Mongo DB',
         link:'exp://exp.host/@maiten18/C7-43?release-channel=default',
         image:'./unlimited.png',
@@ -67,7 +68,7 @@ const project = [
         {
         id:6,
         project:'Contrata',
-        description:'Web App donde solicitar distintos oficios',
+        description:'CONTRATA',
         technologies:'React JS, Redux, Tailwind, Node JS, Doker, Mongo, Moongose',
         link:'https://contrata.vercel.app/',
         image:'./contrata.png',
@@ -76,7 +77,7 @@ const project = [
     {
         id:7,
         project:'Monarquia Perruna',
-        description:'Web Venta accesorios para mascotas',
+        description:'MONARQUIA-PERRUNA',
         technologies:'React JS, Daisy UI, Figma',
         link:'http://www.monarquiaperruna.com.ar/',
         image:'./monarquia.png',
@@ -85,7 +86,7 @@ const project = [
     {
         id:8,
         project:'Obertec Industrias',
-        description:'Equipamiento para Laboratorios, Industrias, Educación',
+        description:'OBERTEC-INDUSTRIAS',
         technologies:'HTML, CSS, PHP, Javascript, Bootstrap',
         link:'http://www.industriasobertec.com.ar/index.php',
         image:'./obertec.png',
@@ -94,7 +95,7 @@ const project = [
      {
          id:9,
          project:'Fidel Construcciones',
-         description:'Ingenieria Civil construcciones',
+         description:'FIDEL-CONSTRUCCIONES',
          technologies:'HTML, CSS, Styled Component, Javascript, React Js',
          link:'https://fidel-construcciones.vercel.app/',
          image:'./fidel.png',
