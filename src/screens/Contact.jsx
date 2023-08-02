@@ -7,6 +7,7 @@ import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { HiOutlineMail } from "react-icons/hi";
 import { GoLocation } from "react-icons/go";
+import { useTranslation } from 'react-i18next';
  
 
 
@@ -14,6 +15,7 @@ import { GoLocation } from "react-icons/go";
 
 
  export const Contact = () => {
+  const [t, i18n] = useTranslation("global");
   const theme = ''
   const style = { fontSize: "1.3em" }
   const style2 = { width:"1.5em"}
@@ -29,7 +31,6 @@ import { GoLocation } from "react-icons/go";
     })
   }
 
-  console.log(contacto)
 const contactDates = (event) => {
   event.preventDefault()
   const contactUser = collection(db, "usuarios")
@@ -45,26 +46,26 @@ const contactDates = (event) => {
   return (
 
 <section id="contact">
-  <h1 className="sectionHeader">Contacto</h1>
+  <h1 className="sectionHeader">{t('contacto.CONTACTO')}</h1>
   <div className="contactWrapper"> 
   {!mesaje ? 
       <form id="contact-form" className="formContact" role="form"   onSubmit={contactDates}>
           <div>
-            <input type="text" className="formControl" id="name" placeholder='nombre completo' name='nombre' onChange={userContact} required/>
+            <input type="text" className="formControl" id="name" placeholder={t('contacto.INPUT-NOMBRE')} name='nombre' onChange={userContact} required/>
           </div>
           <div>
-            <input className="formControl" id="email" input type="email"
-             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder='cualestumail@example.com' name='mail' onChange={userContact} required/>
+            <input className="formControl" id="email"  type="email"
+             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder={t('contacto.INPUT-MAIL')} name='mail' onChange={userContact} required/>
           </div>
           <div>
-          <textarea className="formControl" textarea name="consulta" rows="5" cols="28" onChange={userContact} placeholder='Deje su consulta acá' required></textarea>
+          <textarea className="formControl"  name="consulta" rows="5" cols="28" onChange={userContact} placeholder={t('contacto.INPUT-TEXTO')} required></textarea>
           </div>
         <button className="formButton" id="submit" type="submit" value="Enviar">
           <div className="alt-formButton">
-          <RiSendPlaneFill  style={styleSend}/><span className="sendText">Enviar</span>
+          <RiSendPlaneFill  style={styleSend}/><span className="sendText">{t('contacto.INPUT-ENVIAR')}</span>
           </div> 
         </button>
-      </form> : <div> <h2> En breve nos vamos a estar contactando!</h2></div> }
+      </form> : <div> <h2>{t('contacto.TEXT-CONFIRMACION')}</h2></div> }
       <div className="dataContactContainer">
         <ul className="contactList" id={theme}>
           <li className="listItem"><GoLocation className="icon-contact" style={style}/><span className="contact-text">Rosario, Argentina</span></li>
