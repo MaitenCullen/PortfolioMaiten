@@ -28,7 +28,7 @@ export const ServicesInfo = () =>{
                         </ul>
                     </div>
                     <div className="div-precios c00">
-                        <h4>$70.000</h4>
+                        <h4>$80.000</h4>
                         <p>{t('servicios-info.PAGO')}</p>
                         {/* <a href="">Ejemplo</a> */}
                     </div>
@@ -60,7 +60,7 @@ export const ServicesInfo = () =>{
                         </ul>
                     </div>
                     <div className="div-precios c01">
-                        <h4>$90.000</h4>
+                        <h4>$100.000</h4>
                         <p>{t('servicios-info.PAGO')}</p>
                         {/* <a href="">Ejemplo</a> */}
                     </div>
@@ -91,7 +91,7 @@ export const ServicesInfo = () =>{
                         </ul>
                     </div>
                     <div className="div-precios c02">
-                        <h4>$110.000</h4>
+                        <h4>$120.000</h4>
                         <p>{t('servicios-info.PAGO')}</p>
                         {/* <a href="">Ejemplo</a> */}
                     </div>
@@ -124,7 +124,7 @@ export const ServicesInfo = () =>{
                         </ul>
                     </div>
                     <div className="div-precios c03">
-                        <h4>$140.000</h4>
+                        <h4>$150.000</h4>
                         <p>{t('servicios-info.PAGO')}</p>
                         {/* <a href="">Ejemplo</a> */}
                     </div>
