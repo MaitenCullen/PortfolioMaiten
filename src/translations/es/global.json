@@ -9,7 +9,8 @@
     "navbar":{
         "SKILLS":"Tecnologías",
         "PROJECT":"Proyectos",
-        "CONTACT":"Contacto"
+        "CONTACT":"Contacto",
+        "SERVICIOS":"Servicios"
     },
     "project":{
         "PROYECTOS":"Algunos Proyectos"
