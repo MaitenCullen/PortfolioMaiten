@@ -19,7 +19,7 @@ export const NavBar = () => {
             <li id={theme}><a  href='#skills'>{t('navbar.SKILLS')}</a></li>
             <li><a  href='#projects'>{t('navbar.PROJECT')}</a></li>
             <li><a  href='#contact'>{t('navbar.CONTACT')}</a></li>
-            <li><a  href='#servicios'>{t('navbar.CONTACT')}</a></li>
+            <li><a  href='#servicios'>{t('navbar.SERVICIOS')}</a></li>
         </ul>
         <button className='navButton' onClick={()=> toggleMenu()}><p>Menu</p></button>
         <div className='divMobile'>
