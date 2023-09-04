@@ -44,19 +44,19 @@ export const ServicesInfo = () =>{
                 <div className="container-lista">
                     <div className="div-lista c01">
                         <ul>
-                            <li>{t('servicios-info.LANDING-0A')}</li>
-                            <li>{t('servicios-info.LANDING-0B')}</li>
-                            <li>{t('servicios-info.LANDING-0C')}</li>
-                            <li>{t('servicios-info.LANDING-0D')}</li>
-                            <li>{t('servicios-info.LANDING-0E')}</li>
-                            <li>{t('servicios-info.LANDING-0F')}</li>
-                            <li>{t('servicios-info.LANDING-0G')}</li>
-                            <li>{t('servicios-info.LANDING-0H')}</li>
-                            <li>{t('servicios-info.LANDING-0I')}</li>
-                            <li>{t('servicios-info.LANDING-0J')}</li>
-                            <li>{t('servicios-info.LANDING-0K')}</li>
-                            <li>{t('servicios-info.LANDING-0L')}</li>
-                            <li>{t('servicios-info.LANDING-0M')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0A')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0B')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0C')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0D')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0E')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0F')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0G')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0H')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0I')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0J')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0K')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0L')}</li>
+                            <li>{t('servicios-info.INTERMEDIA-0M')}</li>
                         </ul>
                     </div>
                     <div className="div-precios c01">
@@ -75,19 +75,19 @@ export const ServicesInfo = () =>{
                 <div className="container-lista">
                     <div className="div-lista c02">
                         <ul>
-                            <li>{t('servicios-info.LANDING-0A')}</li>
-                            <li>{t('servicios-info.LANDING-0B')}</li>
-                            <li>{t('servicios-info.LANDING-0C')}</li>
-                            <li>{t('servicios-info.LANDING-0D')}</li>
-                            <li>{t('servicios-info.LANDING-0E')}</li>
-                            <li>{t('servicios-info.LANDING-0F')}</li>
-                            <li>{t('servicios-info.LANDING-0G')}</li>
-                            <li>{t('servicios-info.LANDING-0H')}</li>
-                            <li>{t('servicios-info.LANDING-0I')}</li>
-                            <li>{t('servicios-info.LANDING-0J')}</li>
-                            <li>{t('servicios-info.LANDING-0K')}</li>
-                            <li>{t('servicios-info.LANDING-0L')}</li>
-                            <li>{t('servicios-info.LANDING-0M')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0A')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0B')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0C')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0D')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0E')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0F')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0G')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0H')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0I')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0J')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0K')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0L')}</li>
+                            <li>{t('servicios-info.COMPLETITA-0M')}</li>
                         </ul>
                     </div>
                     <div className="div-precios c02">
@@ -106,21 +106,21 @@ export const ServicesInfo = () =>{
                 <div className="container-lista">
                     <div className="div-lista c03">
                         <ul>
-                            <li>{t('servicios-info.LANDING-0A')}</li>
-                            <li>{t('servicios-info.LANDING-0B')}</li>
-                            <li>{t('servicios-info.LANDING-0C')}</li>
-                            <li>{t('servicios-info.LANDING-0D')}</li>
-                            <li>{t('servicios-info.LANDING-0E')}</li>
-                            <li>{t('servicios-info.LANDING-0F')}</li>
-                            <li>{t('servicios-info.LANDING-0G')}</li>
-                            <li>{t('servicios-info.LANDING-0H')}</li>
-                            <li>{t('servicios-info.LANDING-0I')}</li>
-                            <li>{t('servicios-info.LANDING-0J')}</li>
-                            <li>{t('servicios-info.LANDING-0K')}</li>
-                            <li>{t('servicios-info.LANDING-0L')}</li>
-                            <li>{t('servicios-info.LANDING-0M')}</li>
-                            <li>{t('servicios-info.LANDING-0N')}</li>
-                            <li>{t('servicios-info.LANDING-0R')}</li>
+                            <li>{t('servicios-info.COMERCIO-0A')}</li>
+                            <li>{t('servicios-info.COMERCIO-0B')}</li>
+                            <li>{t('servicios-info.COMERCIO-0C')}</li>
+                            <li>{t('servicios-info.COMERCIO-0D')}</li>
+                            <li>{t('servicios-info.COMERCIO-0E')}</li>
+                            <li>{t('servicios-info.COMERCIO-0F')}</li>
+                            <li>{t('servicios-info.COMERCIO-0G')}</li>
+                            <li>{t('servicios-info.COMERCIO-0H')}</li>
+                            <li>{t('servicios-info.COMERCIO-0I')}</li>
+                            <li>{t('servicios-info.COMERCIO-0J')}</li>
+                            <li>{t('servicios-info.COMERCIO-0K')}</li>
+                            <li>{t('servicios-info.COMERCIO-0L')}</li>
+                            <li>{t('servicios-info.COMERCIO-0M')}</li>
+                            <li>{t('servicios-info.COMERCIO-0N')}</li>
+                            <li>{t('servicios-info.COMERCIO-0R')}</li>
                         </ul>
                     </div>
                     <div className="div-precios c03">
